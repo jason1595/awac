@@ -27,19 +27,16 @@ Go to the download loaction:
 `cd awac`
 
 Build the release binary:
-`cargo build --release`
-
-Make the binary executable:
-`sudo chmod +x ./target/release/awac`
+`cargo install --path`
 
 Run it:
-`./target/release/awac`
+`awac`
 
 In order to make this run reliably without polluting the inreface I place the binary in my home folder and wrap it in a bash function:
 ```bash
 awac() {
     clear
-    ~/awac
+    command awac
     clear
 }
 ```
