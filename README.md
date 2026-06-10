@@ -2,7 +2,7 @@
 AWAC is a lightweight, responsive Terminal User Interface (TUI) wrapper for nmcli (NetworkManager). The intent is for this to be run on direct TTYs on Raspberry Pi powered devices such as the ClockworkPi uConsole. AWAC provides a keyboard-driven interface to rapidly scan, authenticate, and manage local Wi-Fi connections without dealing with nmcli commands.
 
 ## Features
-Tailored for Direct TTYs: Designed to render perfectly on small hardware displays and standard virtual consoles without relying on xterm features or desktop server environments.
+Tailored for Direct TTYs: Designed to render on small hardware displays and standard virtual consoles without relying on xterm features or desktop server environments.
 
 Thread-Isolated Networking: Network scanning and authentication commands run completely in background threads, keeping the interface fluid and responsive while operations execute.
 
